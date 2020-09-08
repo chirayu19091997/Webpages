@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: chirayu19091997.github.io
+Token: 4a818464c1d835d5bdfba8887c76fd732e92582de8dd5e1caeb7f4481a76af15
