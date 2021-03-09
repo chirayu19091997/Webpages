@@ -1,4 +1,12 @@
-img {
+#logo {
   height: 100px;
   width: 150px;
+}
+#indexImg {
+  height: 300px;
+  width: 300px;
+}
+#footer {
+  height: 20px;
+  width: 20px;
 }
