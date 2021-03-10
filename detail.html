@@ -1,21 +1,22 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles\index.css">
+        <link rel="stylesheet" href="styles\detail.css">
         <a href="index.html"><img id="logo" src="assests\images\logo.png"></a>
         <a href="login.html" target="_self">Login</a>
     </head>
 <body>
     <br>
-    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+    <img id="hotel-detail" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
     <br>
     <form action="payment.html" method="GET" target="_self">
-        <label>Adults:</label>
+        <label for="Adults">Adults:</label>
         <input type="number" min="1" required><br>
-        <label>Name:</label>
+        <label for="Name">Name:</label>
         <input type="text"required ><br>
-        <label>From Date:</label>
+        <label for="Check-in Date">From Date:</label>
         <input type="date"required><br>
-        <label>To Date:</label>
+        <label for="Check-out Date">To Date:</label>
         <input type="date" required><br>
         <label>Total:</label>
         <input type="text" readonly="readonly"><br>
