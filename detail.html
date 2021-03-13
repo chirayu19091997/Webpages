@@ -1,15 +1,25 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styles\index.css">
-        <link rel="stylesheet" href="styles\detail.css">
-        <a href="index.html"><img id="logo" src="assests\images\logo.png"></a>
-        <a href="login.html" target="_self">Login</a>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\common.css">
+    <link rel="stylesheet" href="styles\detail.css">
+    
+    <title>Details </title>
+
+        <header>
+            <img class="logo" src="assests\images\logo.png">
+            <a href="login.html" target="_self">Login</a>
+        </header>
+</head>
+
 <body>
-    <br>
-    <img id="hotel-detail" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-    <br>
-    <form action="payment.html" method="GET" target="_self">
+    <div class="hotel-detail">
+        <img id="hotel-detail" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+        <br>
+        <form action="payment.html" method="GET" target="_self" class="form-detail">
         <label for="Adults">Adults:</label>
         <input type="number" min="1" required><br>
         <label for="Name">Name:</label>
@@ -20,27 +30,30 @@
         <input type="date" required><br>
         <label>Total:</label>
         <input type="text" readonly="readonly"><br>
-        <a href="payment.html"><input type="submit" value="Book Now">
-        </a>     
-    </form>
-    <h2>Radisson Blu Hotel</h2>
-    <h5>RATING</h5>
-    <p>5 Star</p>
-    <h5>AMENITIES</h5>
-    <ul>
-        <li>Room Service</li>
-        <li>Restaurant</li>
-        <li>Business Center</li>
-        <li>Fitness Center</li>
-        <li>Pool</li>
-    </ul>
-    <h5>DESCRIPTION</h5>
-    <p>Some Dummy Description of Hotel.</p>
+        <a href="payment.html"><input type="submit" value="Book Now"></a>     
+        </form>
+        <div class="hotel-description">
+            <h2>Radisson Blu Hotel</h2>
+            <h5>RATING</h5>
+            <p>5 Star</p>
+            <h5>AMENITIES</h5>
+            <ul>
+                <li>Room Service</li>
+                <li>Restaurant</li>
+                <li>Business Center</li>
+                <li>Fitness Center</li>
+                <li>Pool</li>
+            </ul>
+            <h5>DESCRIPTION</h5>
+            <p>Some Dummy Description of Hotel.</p>
+        </div>
+    </div>
+
     <footer>
         <a href="contact.html" target="_blank">Contact Us</a><br>
-        <a href="https://www.facebook.com" target="_blank"><img id="footer" src="assests/images/facebook.png"></a>
-        <a href="https://www.instagram.com" target="_blank"><img id="footer" src="assests/images/instagram.png"></a>
-        <a href="https://twitter.com" target="_blank"><img id="footer" src="assests/images/twitter.png"></a>
+        <a href="https://www.facebook.com" target="_blank"><img class="footer" src="assests/images/facebook.png"></a>
+        <a href="https://www.instagram.com" target="_blank"><img class="footer" src="assests/images/instagram.png"></a>
+        <a href="https://twitter.com" target="_blank"><img class="footer" src="assests/images/twitter.png"></a>
     </footer>
 </body>
 </html>
