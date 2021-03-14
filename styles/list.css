@@ -1,9 +1,35 @@
-#hotel-list {
-  height: 200px;
-  width: 250px;
+
+.hotels{
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
+    height: auto;
+    display: block;
+   
+    
 }
-.hotel-list {
-  margin: 2%;
-  background-color: rgb(132, 136, 139);
-  width: 40%;
+.images{
+    width:250px;
+    height:200px;
+   
+}
+#list{
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 5em;
+   
+}   
+#map-view{
+    display:none;
+} 
+#list-view {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 4em;
 }
